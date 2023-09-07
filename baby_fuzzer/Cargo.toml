@@ -1,0 +1,23 @@
+[package]
+name = "baby_fuzzer_ft"
+version = "0.1.0"
+authors = ["Harvey Lau <xingzhi.harvey@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+# The path must point to the `libafl` directory under the `LibAFL` directory.
+# If you use `libafl = "*"` to get the LibAFL dependencies, some unresolved import errors may occur.
+libafl = { path = "../../../LibAFL/libafl" }
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+lto = true
+codegen-units = 1
+opt-level = 3
+debug = true
+
+[features]
+panic = []
