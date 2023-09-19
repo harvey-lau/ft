@@ -10,6 +10,12 @@ Before 2023-12-31T23:59:59+08:00, publish *FT: A Directed Grey-box Fuzzer with M
 
 > The time of To Do means deadline.
 
+#### 2023-09-19
+
+- 2023-10: finish the fuzzer of FT.
+- 2023-11: finish the experiments of FT.
+- 2023-12: finish the paper of FT.
+
 #### 2023-09-04
 
 - 2023-09-08: read LibAFL intensively; follow [this article](https://aflplus.plus/libafl-book/baby_fuzzer/baby_fuzzer.html) and build a baby fuzzer in FT.
