@@ -2,13 +2,19 @@
 
 ## 0x01 Goal
 
-Before 2023-12-31T23:59:59+08:00, publish *FT: A Directed Grey-box Fuzzer with Multiple Targets* on arXiv.
+Before 2024-06-30T23:59:59+08:00, publish *FT: A Directed Grey-box Fuzzer with Multiple Targets* on arXiv.
 
 ## 0x02 From One to Zero
 
 ### 1. To Do
 
 > The time of To Do means deadline.
+
+#### 2023-09-30
+
+- 2024-03: finish the fuzzer of FT.
+- 2024-05: finish the experiments of FT.
+- 2024-06: finish the paper of FT.
 
 #### 2023-09-19
 
